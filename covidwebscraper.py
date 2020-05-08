@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import matplotlib.pyplot as plt
 import pandas as pd
+#by using web scraping "
 url="https://www.mohfw.gov.in/"
 web=requests.get(url).content
 soup=BeautifulSoup(web,"html.parser")
